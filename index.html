@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>My Bootoni</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--		<link href="https://fonts.googleapis.com/css?family=Montserrat:400, 700" rel="stylesheet">-->
+		<!--SCSS-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--		<link rel="stylesheet" type="text/css" href="css/style.css" media="print">-->
+	</head>
+	<body>
+		
+		<div class="container-fluid">
+<!--##################################################################-->
+<!--####################	  	 NAVABAR	   #######################-->
+<!--##################################################################-->		
+			<div class="row">
+				<header>
+					<a href="#" id="logo"></a>
+					<div id="hamburger">
+						<div id="hamburger-content">
+							<nav>
+								<ul>
+									<li><a href="#">Decouvrir</a></li>
+									<li><a href="#">Comment ca marche</a></li>
+									<li><a href="#">A propos</a></li>
+									<li><a href="#">FAQ</a></li>
+								</ul>
+							</nav>
+							<a href="#" class="button button-sign-up">S'inscrire</a>
+							<a href="#" class="button button-sign-in">Se connecter</a>
+						</div>
+						<button id="hamburger-button">&#9776;</button>
+						<div id="hamburger-sidebar">
+							<div id="hamburger-sidebar-header"></div>
+							<div id="hamburger-sidebar-body"></div>
+						</div>
+						<div id="hamburger-overlay"></div>
+					</div>
+				</header>
+				<div id="global">
+					<h1>Menu Icon Hamburger Responsive</h1>
+				</div>
+			</div>
+<!--##################################################################-->
+<!--####################	  INFOS BULLE 	   #######################-->
+<!--##################################################################-->
+      <div class="row">
+        <h1>Tableau</h1>
+        <table class="table">
+        <thead>
+          <tr>
+          <th>#</th>
+          <th>Nom</th>
+          <th>Prenom</th>
+          <th>Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+          <td>1</td>
+          <td>Alors</td>
+          <td>Bien</td>
+          <td>?</td>
+          </tr>
+          <tr>
+          <td>2</td>
+          <td>Name</td>
+          <td>Anna</td>
+          <td>34 ans</td>
+          </tr>
+          <tr>
+          <td>3</td>
+          <td>Anna</td>
+          <td>Anna</td>
+          <td>John</td>
+          </tr>
+        </tbody>
+        </table>	
+			</div>
+<!--##################################################################-->
+<!--####################	  INFOS BULLE 	   #######################-->
+<!--##################################################################-->
+			<div class="row">
+				<h1>InfoBulle</h1>
+				<ul class="tooltip">
+					<li>
+							<button><a href="#" class="btn-red">Info bulle</a></button>
+							<em>
+								<strong>Auteur:</strong>Lorem ipsum dolor sit <br/>
+								<strong>Date:</strong>M dolor sit <br/>
+								<strong>Description:</strong>Dolor sit Lorem ipsum<br/>
+							</em>
+					</li>
+				</ul>
+			</div>
+			
+			
+			
+<!--##################################################################-->
+<!--####################	  	 ONGLET 	   #######################-->
+<!--##################################################################-->
+			<div class="row">
+        <h1>Onglet</h1>
+				<div class="bloc">
+					<div class="title">
+						Mon titre
+						<div class="tabs" id="tabs1">
+							<a href="#contenu1">Contenu 1</a>
+							<a href="#contenu2">Contenu 2</a>
+							<a href="#contenu3">Contenu 3</a>
+						</div>
+					</div>
+					<div class="content">
+						<div>
+							<div id="contenu1">
+								<h1>My Onglet 1</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+							<div id="contenu2">
+								<h1>My Onglet 2</h1>
+								<p>sectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+							<div id="contenu3">
+								<h1>My Onglet 3</h1>
+								<p>Lad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="bloc">
+					<div class="title">
+						Mon titre
+						<div class="tabs" id="tabs2">
+							<a href="#ccontenu1">Contenu 1</a>
+							<a href="#ccontenu2">Contenu 2</a>
+							<a href="#ccontenu3">Contenu 3</a>
+						</div>
+					</div>
+					<div class="content">
+						<div>
+							<div id="ccontenu1">
+								<h1>My Onglet 1</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+							<div id="ccontenu2">
+								<h1>My Onglet 2</h1>
+								<p>sectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+							<div id="ccontenu3">
+								<h1>My Onglet 3</h1>
+								<p>Lad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+<!--##################################################################-->
+<!--####################	  	 POPPIN 	   #######################-->
+<!--##################################################################-->
+			<div class="row">
+				<h1>My poppin</h1>
+					
+				<button class="btn-green" id="button_modal" onclick="openModal()">Go</button>
+				
+				<div id="myModal">
+					<h2>Hello World !</h2>
+					<h3>|||||||||||||</h3>
+					<button id="close" onclick="closeModal()">&#x274C;</button>
+				</div>
+			</div>
+<script type="text/javascript" src="js/script.js"></script>
+
+			
+			
+<!--##################################################################-->
+<!--####################	  	 ALERT  	   #######################-->
+<!--##################################################################-->
+			<div class="row">
+				<h1>ALERT</h1>
+				<div class="page-alerts">
+					<div class="alert alert-success page-alert" id="alert-1">
+						<button type="button" class="close"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+						<strong>Oui!</strong> Success alert message.
+					</div>
+					<div class="alert alert-info page-alert" id="alert-2">
+						<button type="button" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<strong>Go!</strong> Info alert message.
+					</div>
+					<div class="alert alert-warning page-alert" id="alert-3">
+						<button type="button" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<strong>Warning!</strong> Warning alert message.
+					</div>
+					<div class="alert alert-danger page-alert" id="alert-4">
+						<button type="button" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<strong>Aie!</strong> Danger alert message.
+					</div>
+					<div class="alert alert-success page-alert" id="alert-5">
+						<button type="button" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<strong>Cool!</strong> Fermeture dans 3 secondes.
+					</div>
+				</div>
+				<div class="col-m-12 col-l-12">
+					<h2>Page Alerts</h2>
+					<div class="row">
+						<div class="col-m-2 col-l-2"><button data-toggle="page-alert" data-toggle-id="1" class="btn-blue">Success</button></div>
+						<div class="col-m-2 col-l-2"><button data-toggle="page-alert" data-toggle-id="2" class="btn-blue">Info</button></div>
+						<div class="col-m-2 col-l-2"><button data-toggle="page-alert" data-toggle-id="3" class="btn-blue">Warning</button></div>
+						<div class="col-m-2 col-l-2"><button data-toggle="page-alert" data-toggle-id="4" class="btn-blue">Danger</button></div>
+						<div class="col-md-2 col-l-2"><button data-toggle="page-alert" data-delay="3000" data-toggle-id="5" class="btn-red">Fermeture auto alert</button></div>
+						<div class="col-m-2 col-l-2"><button class="btn-white">Clear tous</button></div>
+					</div>
+				</div>
+			</div>
+<script type="text/javascript" src="js/script.js"></script>
+
+<!--##################################################################-->
+<!--####################	   COLOR TEXT 	   #######################-->
+<!--##################################################################-->
+			<div class="row">
+				<h1>COLOR TEXT</h1>
+				<p class="text-muted">.text-muted</p>
+				<p class="text-primary">.text-primary</p>
+				<p class="text-success">.text-success</p>
+				<p class="text-info">.text-info</p>
+				<p class="text-warning">.text-warning</p>
+				<p class="text-error">.text-error</p>
+				<br/>
+				<p class="bg-muted">.bg-muted</p>
+				<p class="bg-primary">.bg-primary</p>
+				<p class="bg-success">.bg-success</p>
+				<p class="bg-info">.bg-info</p>
+				<p class="bg-warning">.bg-warning</p>
+				<p class="bg-error">.bg-error</p>
+			</div>
+<!--##################################################################-->
+<!--####################	  	 BTN     	   #######################-->
+<!--##################################################################-->			
+			<div class="row">
+				<h1>LISTE DES BUTTON DISPO</h1>
+					<button type="button" class="btn-green" >btn-green</button>
+					<button type="button" class="btn-red" >btn-red</button>
+					<button type="button" class="btn-blue" >btn-blue</button>
+					<button type="button" class="btn-white" >btn-white</button>
+					<br/>
+					<button type="button" class="btn-green--sm" >btn-green--sm</button>
+					<button type="button" class="btn-red--sm" >btn-red--sm</button>
+					<button type="button" class="btn-blue--sm" >btn-blue--sm</button>
+					<button type="button" class="btn-white--sm" >btn-white--sm</button>
+					<br/>
+					<button type="button" class="btn-green--md" >btn-green--md</button>
+					<button type="button" class="btn-red--md" >btn-red--md</button>
+					<button type="button" class="btn-blue--md" >btn-blue--md</button>
+					<button type="button" class="btn-white--md" >btn-white--md</button>
+					<br/>
+					<button type="button" class="btn-green--lg" >btn-green--lg</button>
+					<button type="button" class="btn-red--lg" >btn-red--lg</button>
+					<button type="button" class="btn-blue--lg" >btn-blue--lg</button>
+					<button type="button" class="btn-white--lg" >btn-white--lg</button>
+			</div>
+			
+<!--##################################################################-->
+<!--####################	  	 COL    	   #######################-->
+<!--##################################################################-->			
+			<h1>LISTE DES COL</h1>
+				<div class="row">
+					<div class="col-s-6 col-m-4">
+						<h2>Argument 1</h2>
+						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+					</div>
+					<div class="col-s-6 col-m-4">
+						<h2>Argument 1</h2>
+						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+					</div>
+					<div class="col-s-6 col-s-push-3 col-m-4 col-m-push-0">
+						<h2>Argument 1</h2>
+						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+					</div>
+				</div>
+		<div class="col-l-4 col-m-6">Col6</div>
+		<div class="col-l-4 col-m-6">Col8</div>
+		<div class="col-l-6 col-m-6">Col2</div>
+		<div class="col-l-6 col-m-6">Col2</div>
+		<div class="col-l-10 col-m-6">Col4</div>
+		<div class="col-l-2 col-m-6">Col4</div>
+		<div class="col-l-12 col-m-6">Col4</div>
+<!--##################################################################-->
+<!--####################	  	IMG     	   #######################-->
+<!--##################################################################-->			
+			<div class="row">
+				<h1>LISTE DES IMAGES</h1>
+				  <div class="col-s-2 col-m-2 col-l-2">
+					<img class="img-responsive" src="iron-man-logo.jpg" alt="iron man" />
+					 <p>img-responsive</p>
+				  </div>
+				  <div class="col-s-6 col-m-6 col-l-3">
+					<img class="img-rounded img-responsive" src="iron-man-logo.jpg" alt="iron man" />
+					<p>img-rounded</p>
+				  </div>
+				  <div class="col-s-6 col-m-6 col-l-3">
+					<img class="img-circle img-responsive" src="iron-man-logo.jpg" alt="iron man" />
+					<p>img-circle</p>
+				  </div>
+				  <div class="col-s-6 col-m-6 col-l-3">
+					<img class="img-thumbail img-responsive" src="iron-man-logo.jpg" alt="iron man" />
+					<p>img-thumbail</p>
+				  </div>
+				  <div class="col-s-6 col-m-6 col-l-3">
+					<img class="img-blur img-responsive" src="iron-man-logo.jpg" alt="iron man" />
+					<p>img-blur</p>
+				  </div>
+			</div>
+<!--##################################################################-->
+<!--####################	  	Animation     	 #######################-->
+<!--##################################################################-->
+      <div class="row">
+        <h1>Animation</h1>
+          <div class="col-s-6 col-m-6 col-l-6">
+					<img class="rotate360 opacity img-responsive" src="iron-man-logo.jpg" alt="iron man" />
+					 <p class="rotate360">Rotation/opacity</p>
+				  </div>
+          <div class="col-s-6 col-m-6 col-l-6">
+            <article>
+					     <img class="rotateProfondeur img-responsive" src="iron-man-logo.jpg" alt="iron man" />
+            </article>
+					 <p class="rotateProfondeur">Rotation profondeur</p>
+				  </div>
+      </div>
+<script type="text/javascript" src="js/script.js"></script>
+		</div>
+	</body>
+</html>
