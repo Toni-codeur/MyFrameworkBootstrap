@@ -1,0 +1,24 @@
+/*---------------------------*\
+ 			VARIABLE
+\*---------------------------*/
+$muted: #958585;
+$primary: #337ab7;
+$success: #aade94;
+$info: #88b7cf;
+$warning: #d9c86d;
+$error: #d67979;
+/*---------------------------*\
+ 		CLASS GENERIQUE
+\*---------------------------*/
+.text-muted { color: $muted;}
+.text-primary { color: $primary;}
+.text-success { color: $success;}
+.text-info { color: $info;}
+.text-warning { color: $warning;}
+.text-error { color: $error;}
+.bg-muted { background-color: $muted;}
+.bg-primary { background-color: $primary;}
+.bg-success { background-color: $success;}
+.bg-info { background-color: $info;}
+.bg-warning { background-color: $warning;}
+.bg-error { background-color: $error;}

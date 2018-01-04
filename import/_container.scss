@@ -1,0 +1,52 @@
+/*---------------------------*\
+ 			VARIABLE
+\*---------------------------*/
+$columns: 12!default;
+$gutter: 20px!default;
+$small: 640px!default;
+$medium: 640px!default;
+$large: 1024px!default;
+/*---------------------------*\
+ 			MIXIN
+\*---------------------------*/
+@mixin container-fluid($width,$margin-left)
+{
+	.container-fluid
+	{
+	  left: 30%;
+	  width: $width;//500
+	  margin-top: 5%;
+	  margin-left: $margin-left; //-75
+	  padding: 20px;
+	  background-color: transparent;
+	  border: 1px solid #564B47;
+	  @include border-radius(5px);
+	  position: relative;
+	}
+}
+/*---------------------------*\
+ 		CLASS GENERIQUE
+\*---------------------------*/
+.container
+{
+  position:absolute;    
+  left:0;    
+  top:0 
+}
+/*---------------------------*\
+ 		RESPONSIVE
+\*---------------------------*/
+// MEDIUM SCREEN
+@media only screen and (max-width: $small)
+{
+
+}
+@media only screen and (min-width: $medium)
+{
+	@include container-fluid(500px,-75px);
+}
+
+@media only screen and (min-width: $large)
+{
+	@include container-fluid(1000px,-150px);
+}

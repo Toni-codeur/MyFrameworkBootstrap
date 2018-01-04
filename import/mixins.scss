@@ -1,0 +1,19 @@
+//IMPORTER CE FICHIER SUR LA FEUILLE SCSS DE BASE 
+//@import "import/mixins.scss";
+
+//MIXIN
+//UTILISER MIXIN POUR BORDER RADUIS COMPATIBILITER INTERNET PUIS UTILISER LA FUNCTION 
+// @include border-raduis(20px);
+@mixin border-radius($radius)
+{
+	-webkit-border-radius : $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+	border-radius: $radius;
+}
+@mixin rotate360($degres)
+{
+  -ms-transform: rotate($degres + 'deg'); /* IE 9 */
+  -webkit-transform: rotate($degres + 'deg'); /* Chrome, Safari, Opera */
+  transform: rotate($degres + 'deg');
+}
